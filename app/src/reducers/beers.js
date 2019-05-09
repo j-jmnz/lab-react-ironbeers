@@ -7,6 +7,7 @@ const initialState = {
 
 export default function(state = initialState, action) {
   const { type, payload } = action;
+  console.log('branch test');
 
   switch (type) {
     case GET_RANDOM_BEER:
